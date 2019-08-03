@@ -9,10 +9,11 @@ import net.md_5.bungee.api.plugin.Command;
 import java.io.IOException;
 
 /**
- * A simply {@code Command} to reload or update the stored
- * configuration by using a {@link DescriptionManager} interface.
+ * A simple {@code Command} to reload or update the stored
+ * configuration by using the {@link DescriptionManager} interface.
  * <p>
- * The command call {@link DescriptionManager#reloadConfiguration()} to reload a configuration.
+ * The command call {@link DescriptionManager#reloadConfiguration()}
+ * to reload the configuration.
  *
  * @see net.md_5.bungee.api.plugin.Command
  * @see DescriptionManager#reloadConfiguration()
@@ -33,10 +34,10 @@ public class ReloadCommand extends Command {
     private final DescriptionManager descriptionManager;
 
     /**
-     * Constructs a {@code ReloadCommand} with the {@code Updatable} to update
-     * or reload the configuration.
+     * Constructs a {@code ReloadCommand} with the {@code DescriptionManager}
+     * to reload the configuration.
      *
-     * @param descriptionManager the {@code Updater} to call when the command is used
+     * @param descriptionManager the {@code DescriptionManager} to call when the command is used
      */
     public ReloadCommand(final DescriptionManager descriptionManager) {
         super(COMMAND_NAME, COMMAND_PERMISSION);
