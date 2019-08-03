@@ -1,0 +1,5 @@
+name: BungeeDescription
+main: com.github.jiizuz.bungeedescription.BungeeDescription
+version: 2.0.4
+author: Jiizuz
+description: 'A Plugin to sets a colorful description on Minecraft Servers List'
